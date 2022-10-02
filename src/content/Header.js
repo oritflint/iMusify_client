@@ -20,9 +20,9 @@ import LOGO from "../IMG/musifyLogo.png"
       };
 
       //show the search textBox when press on icon
-      const showSearchTxt = ()=>{
-        srcStr.current.parentElement.style.visibility="visible"
-      }
+      // const showSearchTxt = ()=>{
+      //   srcStr.current.parentElement.style.visibility="visible"
+      // }
       
       // srcStr.addEventListener("keypress", (event)=> {
       //     if (event.key === 13) { // key code of the keybord key
@@ -33,7 +33,7 @@ import LOGO from "../IMG/musifyLogo.png"
       return(
         <form className="plHeader" onSubmit={srchSong}>
             <div className="plHeaderContent">
-                <span><img src={LOGO} height="60"></img></span>
+                <span><img src={LOGO} height="60" alt=""></img></span>
                 <span className="searchContent">
                     {/* <SearchIcon color="white" onClick={srchSong}></SearchIcon> */}
                     {/* <i className="zmdi zmdi-search zmdi-hc-2x searcBtn"></i  > */}

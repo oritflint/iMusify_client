@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-import { useContext, useRef } from 'react';
+import { useRef } from 'react';
 
 
 export default function Login({setIsLogged,setCurrUser}){

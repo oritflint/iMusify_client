@@ -2,7 +2,7 @@
 
 import Plyr from "plyr-react";
 import "plyr-react/plyr.css"
-import { useContext, useEffect, useRef } from "react";
+import { useContext, useRef } from "react";
 import {SongsList} from '../Context/AppContext'
 
 function SongDetail (props){

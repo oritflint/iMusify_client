@@ -20,7 +20,7 @@ function Song(props){
 
     const hoverTrack=(e)=>{
         const trackElem = e.target.parentElement.parentElement
-        if(trackElem.className=="track"){
+        if(trackElem.className==="track"){
             trackElem.style.backgroundColor = "rgb(39, 39, 39)"
             trackElem.style.color = "dimgray"
             trackElem.style.transition = "0.3s"
@@ -31,7 +31,7 @@ function Song(props){
 
     const leaveTrack=(e)=>{
         const trackElem = e.target.parentElement.parentElement
-        if(trackElem.className=="track"){
+        if(trackElem.className==="track"){
             trackElem.style.backgroundColor = "black"
             setShowTrackActions(false)
         }
